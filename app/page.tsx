@@ -4,11 +4,14 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { getCurrentDay, shareOnWhatsApp } from "@/lib/utils-custom";
+import { shareOnWhatsApp } from "@/lib/utils-custom";
 import { adhkarData, duaaData } from "@/lib/data";
 import DuaaCard from "@/components/DuaaCard";
 import { useEffect, useState } from "react";
 import { RamadanCountdown } from "@/components/RamadanCountdown";
+
+import { getRamadanDayNumber, isRamadan } from "@/lib/ramadan-dates";
+import { RAMADAN_TOTAL_DAYS } from "@/lib/ramadan-config";
 
 const quickLinks = [
   {
@@ -30,13 +33,20 @@ const quickLinks = [
 ];
 
 export default function HomePage() {
-  const [currentDay, setCurrentDay] = useState(1);
-  const [mounted, setMounted] = useState(false);
+  const [now, setNow] = useState(() => new Date());
 
   useEffect(() => {
-    setMounted(true);
-    setCurrentDay(getCurrentDay());
+    // update once per minute is enough (day/progress changes)
+    const id = setInterval(() => setNow(new Date()), 60_000);
+    return () => clearInterval(id);
   }, []);
+
+  const inRamadan = isRamadan(now);
+  const currentDay = inRamadan ? getRamadanDayNumber(now) : 0;
+
+  const progressPercent = inRamadan
+    ? Math.min(100, Math.max(0, (currentDay / RAMADAN_TOTAL_DAYS) * 100))
+    : 0;
 
   const featuredDuaa = duaaData[0];
   const featuredAdhkar = adhkarData[0];
@@ -61,6 +71,7 @@ export default function HomePage() {
           Fast and lightweight · No tracking
         </Badge>
       </div>
+
       <RamadanCountdown />
 
       <Separator className="mb-10 mt-8" />
@@ -98,33 +109,43 @@ export default function HomePage() {
       >
         <div>
           <h2 className="text-2xl font-medium mb-2 text-black">
-            Today's Reflection
+            Today&apos;s Reflection
           </h2>
-          {mounted && (
-            <p className="text-lg text-gray-700 font-medium">
-              Ramadan Progress: Day {currentDay} of 30{" "}
-              {currentDay === 30 ? "🌙" : ""}
-            </p>
+
+          {inRamadan ? (
+            <>
+              <p className="text-lg text-gray-700 font-medium">
+                Ramadan Progress: Day {currentDay} of {RAMADAN_TOTAL_DAYS}{" "}
+                {currentDay === RAMADAN_TOTAL_DAYS ? "🌙" : ""}
+              </p>
+              <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+                <div
+                  className="bg-black h-2 rounded-full transition-all"
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <p className="text-sm text-gray-600">
+                Ramadan progress will appear here during Ramadan.
+              </p>
+              <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+                <div className="bg-black/30 h-2 rounded-full" style={{ width: `0%` }} />
+              </div>
+            </>
           )}
-          <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-            <div
-              className="bg-black h-2 rounded-full transition-all"
-              style={{ width: `${(currentDay / 30) * 100}%` }}
-            />
-          </div>
         </div>
 
         {/* Featured Duaa */}
         <div>
           <h3 className="font-medium text-gray-900 mb-3">Featured Duʿā</h3>
-          {mounted && (
-            <DuaaCard
-              item={featuredDuaa}
-              isFavorite={false}
-              onToggleFavorite={() => {}}
-              pageUrl={shareUrl}
-            />
-          )}
+          <DuaaCard
+            item={featuredDuaa}
+            isFavorite={false}
+            onToggleFavorite={() => {}}
+            pageUrl={shareUrl}
+          />
         </div>
 
         {/* Featured Adhkar */}

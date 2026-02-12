@@ -1,4 +1,4 @@
-import { Separator } from '@/components/ui/separator'
+import { Separator } from "@/components/ui/separator";
 
 export default function Footer() {
   return (
@@ -6,9 +6,16 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto px-4 py-6">
         <Separator className="mb-4" />
         <p className="text-sm text-gray-600 text-center">
-          Ramadan Toolkit · Built by <a href="mailto:ayanlekemubaraq@gmail.com">Mubaraq</a>
+          Ramadan Toolkit · Built by{" "}
+          <a
+            href="https://wa.me/2348105293004
+"
+            target="_blank"
+          >
+            Mubaraq
+          </a>
         </p>
       </div>
     </footer>
-  )
+  );
 }
