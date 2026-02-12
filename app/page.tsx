@@ -1,34 +1,47 @@
-'use client'
+"use client";
 
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Separator } from '@/components/ui/separator'
-import Link from 'next/link'
-import { getCurrentDay, shareOnWhatsApp } from '@/lib/utils-custom'
-import { adhkarData, duaaData } from '@/lib/data'
-import DuaaCard from '@/components/DuaaCard'
-import { useEffect, useState } from 'react'
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+import Link from "next/link";
+import { getCurrentDay, shareOnWhatsApp } from "@/lib/utils-custom";
+import { adhkarData, duaaData } from "@/lib/data";
+import DuaaCard from "@/components/DuaaCard";
+import { useEffect, useState } from "react";
+import { RamadanCountdown } from "@/components/RamadanCountdown";
 
 const quickLinks = [
-  { href: '/adhkar', label: 'Adhkār', description: 'Morning, evening & after salah' },
-  { href: '/duas', label: 'Duʿā', description: 'Supplications by category' },
-  { href: '/calendar', label: 'Calendar', description: 'Ramadan progress tracker' },
-  { href: '/laylatul-qadr', label: 'Laylatul Qadr', description: 'Nights 21-30 countdown' },
-]
+  {
+    href: "/adhkar",
+    label: "Adhkār",
+    description: "Morning, evening & after salah",
+  },
+  { href: "/duas", label: "Duʿā", description: "Supplications by category" },
+  {
+    href: "/calendar",
+    label: "Calendar",
+    description: "Ramadan progress tracker",
+  },
+  {
+    href: "/laylatul-qadr",
+    label: "Laylatul Qadr",
+    description: "Nights 21-30 countdown",
+  },
+];
 
 export default function HomePage() {
-  const [currentDay, setCurrentDay] = useState(1)
-  const [mounted, setMounted] = useState(false)
+  const [currentDay, setCurrentDay] = useState(1);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-    setCurrentDay(getCurrentDay())
-  }, [])
+    setMounted(true);
+    setCurrentDay(getCurrentDay());
+  }, []);
 
-  const featuredDuaa = duaaData[0]
-  const featuredAdhkar = adhkarData[0]
+  const featuredDuaa = duaaData[0];
+  const featuredAdhkar = adhkarData[0];
 
-  const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
+  const shareUrl = typeof window !== "undefined" ? window.location.href : "";
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12 animate-in fade-in slide-in-from-bottom-4 duration-400">
@@ -38,14 +51,19 @@ export default function HomePage() {
           Ramadan Mubarak, from Mubaraq
         </h1>
         <p className="text-lg text-gray-600 mb-4 text-balance">
-         A minimalist, distraction-free companion for your spiritual journey this Ramadan.
+          A minimalist, distraction-free companion for your spiritual journey
+          this Ramadan.
         </p>
-        <Badge variant="outline" className="inline-block border-gray-300 text-gray-700">
+        <Badge
+          variant="outline"
+          className="inline-block border-gray-300 text-gray-700"
+        >
           Fast and lightweight · No tracking
         </Badge>
       </div>
+      <RamadanCountdown />
 
-      <Separator className="mb-10" />
+      <Separator className="mb-10 mt-8" />
 
       {/* Quick Links */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
@@ -59,8 +77,12 @@ export default function HomePage() {
           >
             <Link href={link.href}>
               <div className="border border-gray-200 rounded-lg p-4 cursor-pointer hover:border-black transition-colors group">
-                <h3 className="font-medium text-black group-hover:text-gray-700 mb-1">{link.label}</h3>
-                <p className="text-sm text-gray-600 group-hover:text-gray-700">{link.description}</p>
+                <h3 className="font-medium text-black group-hover:text-gray-700 mb-1">
+                  {link.label}
+                </h3>
+                <p className="text-sm text-gray-600 group-hover:text-gray-700">
+                  {link.description}
+                </p>
               </div>
             </Link>
           </div>
@@ -70,12 +92,18 @@ export default function HomePage() {
       <Separator className="my-10" />
 
       {/* Today Panel */}
-      <div className="space-y-6 animate-in fade-in slide-in-from-bottom-3 duration-500" style={{ animationDelay: '200ms' }}>
+      <div
+        className="space-y-6 animate-in fade-in slide-in-from-bottom-3 duration-500"
+        style={{ animationDelay: "200ms" }}
+      >
         <div>
-          <h2 className="text-2xl font-medium mb-2 text-black">Today's Reflection</h2>
+          <h2 className="text-2xl font-medium mb-2 text-black">
+            Today's Reflection
+          </h2>
           {mounted && (
             <p className="text-lg text-gray-700 font-medium">
-              Ramadan Progress: Day {currentDay} of 30 {currentDay === 30 ? '🌙' : ''}
+              Ramadan Progress: Day {currentDay} of 30{" "}
+              {currentDay === 30 ? "🌙" : ""}
             </p>
           )}
           <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
@@ -105,8 +133,12 @@ export default function HomePage() {
           <div className="border border-gray-200 rounded-lg p-5 space-y-3">
             <div>
               <h4 className="font-medium text-black">{featuredAdhkar.title}</h4>
-              <p className="text-lg text-right my-2 text-gray-900 leading-relaxed">{featuredAdhkar.arabic}</p>
-              <p className="text-sm text-gray-600 italic">{featuredAdhkar.transliteration}</p>
+              <p className="text-lg text-right my-2 text-gray-900 leading-relaxed">
+                {featuredAdhkar.arabic}
+              </p>
+              <p className="text-sm text-gray-600 italic">
+                {featuredAdhkar.transliteration}
+              </p>
               <Separator className="my-2" />
               <p className="text-sm text-gray-700">{featuredAdhkar.meaning}</p>
             </div>
@@ -115,8 +147,8 @@ export default function HomePage() {
                 size="sm"
                 className="bg-black text-white hover:bg-gray-800 flex-1 active:scale-95 transition-transform"
                 onClick={() => {
-                  const text = `${featuredAdhkar.title}\n\n${featuredAdhkar.arabic}\n\nRamadan Toolkit`
-                  shareOnWhatsApp(text, shareUrl)
+                  const text = `${featuredAdhkar.title}\n\n${featuredAdhkar.arabic}\n\nRamadan Toolkit`;
+                  shareOnWhatsApp(text, shareUrl);
                 }}
               >
                 Share on WhatsApp
@@ -129,14 +161,20 @@ export default function HomePage() {
       <Separator className="my-10" />
 
       {/* CTA */}
-      <div className="text-center animate-in fade-in slide-in-from-bottom-3 duration-500" style={{ animationDelay: '300ms' }}>
-        <p className="text-gray-600 mb-4">Explore more adhkār and duʿā by navigating above</p>
+      <div
+        className="text-center animate-in fade-in slide-in-from-bottom-3 duration-500"
+        style={{ animationDelay: "300ms" }}
+      >
+        <p className="text-gray-600 mb-4">
+          Explore more adhkār and duʿā by navigating above
+        </p>
         <Button
           size="lg"
           className="bg-black text-white hover:bg-gray-800 active:scale-95 transition-transform"
           onClick={() => {
-            const text = 'Ramadan Mubarak 🌙 Check out this beautiful Ramadan Toolkit for daily adhkār and duʿā'
-            shareOnWhatsApp(text, shareUrl)
+            const text =
+              "Ramadan Mubarak 🌙 Check out this beautiful Ramadan Toolkit for daily adhkār and duʿā";
+            shareOnWhatsApp(text, shareUrl);
           }}
         >
           Share Toolkit on WhatsApp
@@ -156,5 +194,5 @@ export default function HomePage() {
         }
       `}</style>
     </div>
-  )
+  );
 }
