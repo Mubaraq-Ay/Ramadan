@@ -43,7 +43,7 @@ A minimalist, distraction-free Ramadan companion for daily remembrance, duas, an
 
 ## Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
+- **Framework**: Next.js (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Components**: shadcn/ui (Tabs, Badge, Button, Input, Separator, Sheet)
