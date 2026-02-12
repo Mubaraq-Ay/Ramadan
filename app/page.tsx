@@ -38,7 +38,7 @@ export default function HomePage() {
           Ramadan Mubarak, from Mubaraq
         </h1>
         <p className="text-lg text-gray-600 mb-4 text-balance">
-          A minimalist offline-friendly companion for your spiritual journey this Ramadan
+         A minimalist, distraction-free companion for your spiritual journey this Ramadan.
         </p>
         <Badge variant="outline" className="inline-block border-gray-300 text-gray-700">
           Fast and lightweight · No tracking
