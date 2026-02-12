@@ -107,7 +107,7 @@ const [favorites, setFavorites] = useLocalStorage<string[]>('duaa-favorites', []
 ```
 
 ### Live Countdown Timer
-Updates every second to the next night start (6:00 PM):
+Updates every second to the next night Toggle
 ```tsx
 const updateCountdown = () => {
   const time = getCountdownToTime(18)
@@ -178,13 +178,13 @@ npm start
 - **30-Day Table**: Day, Hijri date, Gregorian date, notes
 - **Progress**: Visual bar + "Day X/30" text
 - **Highlighting**: Today's row highlighted
-- **Last 10 Nights**: Toggle to highlight nights 21-30 with 🌙
+- **Last 10 Nights**: Toggle to highlight nights 21-30
 
 ### Laylatul Qadr Page
-- **Live Countdown**: Hours:Minutes:Seconds to 6:00 PM
+- **Live Countdown**: Hours:Minutes:Seconds
 - **Night Grid**: 10 cards (nights 21-30)
 - **Odd Nights**: Highlighted (21, 23, 25, 27, 29)
-- **Current Night**: Bold with 🌙
+- **Current Night**
 - **Share Button**: WhatsApp reminder for tonight
 
 ### Home Page
