@@ -22,7 +22,7 @@ export const adhkarData: AdhkarItem[] = [
     category: 'morning',
     title: 'Tasbīḥ',
     arabic: 'سبحان الله',
-    transliteration: 'Subḥān allāh',
+    transliteration: 'Subḥān Allāh',
     meaning: 'Glory be to Allah',
   },
   {
@@ -38,7 +38,7 @@ export const adhkarData: AdhkarItem[] = [
     category: 'morning',
     title: 'Takbīr',
     arabic: 'الله أكبر',
-    transliteration: 'Allāh akbar',
+    transliteration: 'Allāh Akbar',
     meaning: 'Allah is the Greatest',
   },
   {
@@ -70,7 +70,7 @@ export const adhkarData: AdhkarItem[] = [
     category: 'evening',
     title: 'Evening Tasbīḥ',
     arabic: 'سبحان الله وبحمده',
-    transliteration: 'Subḥān allāh wa biḥamdihi',
+    transliteration: 'Subḥān Allāh wa biḥamdihi',
     meaning: 'Glory be to Allah and with His praise',
   },
   {
@@ -118,7 +118,7 @@ export const adhkarData: AdhkarItem[] = [
     category: 'after-salah',
     title: 'Tasbeeh after Salah',
     arabic: 'سبحان الله 33 مرة والحمد لله 33 مرة والله أكبر 34 مرة',
-    transliteration: 'Subḥān allāh (33x), Al-ḥamdu lilāh (33x), Allāh akbar (34x)',
+    transliteration: 'Subḥān Allāh (33x), Al-ḥamdu lilāh (33x), Allāh Akbar (34x)',
     meaning: 'Glory be to Allah 33 times, praise 33 times, Allah is Greatest 34 times',
   },
   {
@@ -142,7 +142,7 @@ export const adhkarData: AdhkarItem[] = [
     category: 'after-salah',
     title: 'Quranic Verses',
     arabic: 'قل هو الله أحد الله الصمد',
-    transliteration: 'Qul huwa allāh aḥad, allāh aṣ-ṣamad',
+    transliteration: 'Qul huwa Allāh aḥad, allāh aṣ-ṣamad',
     meaning: 'Say: He is Allah, the One, Allah is Eternal',
   },
   {
