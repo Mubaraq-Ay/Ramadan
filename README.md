@@ -28,7 +28,6 @@ A minimalist, distraction-free Ramadan companion for daily remembrance, duas, an
 - Progress bar visualization
 
  **Laylatul Qadr (Night of Power)**
-- Live countdown timer to 6:00 PM
 - Nights 21-30 with odd night highlighting
 - Beautiful night grid layout
 - WhatsApp reminders
@@ -178,7 +177,7 @@ npm start
 ### Calendar Page
 - **30-Day Table**: Day, Hijri date, Gregorian date, notes
 - **Progress**: Visual bar + "Day X/30" text
-- **Highlighting**: Today's row highlighted with 📍
+- **Highlighting**: Today's row highlighted
 - **Last 10 Nights**: Toggle to highlight nights 21-30 with 🌙
 
 ### Laylatul Qadr Page
