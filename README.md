@@ -1,7 +1,6 @@
 # Ramadan Toolkit
-
-A minimalist, offline-friendly Ramadan companion built with Next.js 16, TypeScript, Tailwind CSS, and Framer Motion.
-
+A minimalist, distraction-free Ramadan companion for daily remembrance, duas, and spiritual consistency.
+ 
 ## Features
 
  **Minimalist Design**
