@@ -10,9 +10,10 @@ const geist = Geist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Ramadan Toolkit',
-  description: 'A minimalist offline-friendly Ramadan companion with Adhkār, Duʿā, calendar, and Laylatul Qadr countdown.',
-  generator: 'v0.app',
+  description:
+    'A minimalist Ramadan companion with Adhkār, Duʿā, a Ramadan calendar, and Laylatul Qadr countdown to support consistent worship.',
 }
+
 
 export const viewport = {
   themeColor: '#ffffff',
