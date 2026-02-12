@@ -41,7 +41,7 @@ export default function HomePage() {
           A minimalist offline-friendly companion for your spiritual journey this Ramadan
         </p>
         <Badge variant="outline" className="inline-block border-gray-300 text-gray-700">
-          Offline-friendly · No tracking
+          Fast and lightweight · No tracking
         </Badge>
       </div>
 
