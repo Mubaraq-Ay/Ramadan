@@ -34,7 +34,7 @@ export function RamadanCountdown() {
   return (
     <div className="text-sm text-muted-foreground">
       <p>
-        Ramadan starts on <span className="font-medium text-foreground">{start.toDateString()}</span>
+        Ramadan starts on: <span className="font-medium text-foreground">{start.toDateString()}</span>
       </p>
       <p className="mt-1">
         Countdown:{" "}

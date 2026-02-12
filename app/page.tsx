@@ -48,7 +48,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-3 duration-500">
         <h1 className="text-4xl md:text-5xl font-medium mb-3 text-black text-balance">
-          Ramadan Mubarak, from Mubaraq
+          Ramadan Mubarak, from Mubaraq.
         </h1>
         <p className="text-lg text-gray-600 mb-4 text-balance">
           A minimalist, distraction-free companion for your spiritual journey
