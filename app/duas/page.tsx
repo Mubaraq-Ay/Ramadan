@@ -150,7 +150,7 @@ export default function DuaaPage() {
 
           <p className="text-sm text-gray-600 text-center">
             {favorites.length > 0 && `${favorites.length} duʿā saved to favorites · `}
-            All duʿā are offline and can be used anytime
+            All duʿā are stored locally and available anytime
           </p>
         </>
       )}
