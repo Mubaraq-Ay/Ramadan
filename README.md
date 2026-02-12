@@ -1,40 +1,40 @@
 # Ramadan Toolkit
 
-A minimalist, offline-friendly Ramadan companion built with Next.js 16, TypeScript, Tailwind CSS, and Framer Motion.
+A minimalist, offline-friendly Ramadan companion built with Next.js 16, TypeScript, Tailwind CSS, and Motion.
 
 ## Features
 
-✨ **Minimalist Design**
+ **Minimalist Design**
 - Clean white background with near-black text and muted gray accents
 - Single centered column layout (max 900px)
 - Thin dividers, subtle animations, no gradients or heavy shadows
 
-🕌 **Adhkār (Remembrance)**
+ **Adhkār (Remembrance)**
 - Morning, evening, and after-salah adhkār
 - Copy-to-clipboard functionality
 - WhatsApp sharing for each item
 - Counter for tracking repetitions
 
-📿 **Duʿā (Supplications)**
+ **Duʿā (Supplications)**
 - 12+ supplications across 5 categories
 - Full-text search and filtering
 - Favorite management with localStorage
 - Category chips for quick browsing
 - Show favorites only toggle
 
-📅 **Ramadan Calendar**
+ **Ramadan Calendar**
 - 30-day tracker with daily progress
 - Today's day highlighted
 - Last 10 nights highlighting for Laylatul Qadr focus
 - Progress bar visualization
 
-🌙 **Laylatul Qadr (Night of Power)**
+ **Laylatul Qadr (Night of Power)**
 - Live countdown timer to 6:00 PM
 - Nights 21-30 with odd night highlighting
 - Beautiful night grid layout
 - WhatsApp reminders
 
-🎯 **Global Features**
+ **Global Features**
 - Responsive mobile navigation using shadcn/ui Sheet
 - Page fade/slide animations on route change
 - Subtle section reveal animations on scroll
@@ -272,7 +272,7 @@ Built with ❤️ using Next.js, React, and Tailwind CSS.
 
 Designed to enhance your Ramadan journey with simplicity and focus.
 
-May Allah accept from all of us. 🌙
+May Allah accept from all of us. 
 
 ## License
 
