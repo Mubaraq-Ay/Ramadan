@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto px-4 py-6">
         <Separator className="mb-4" />
         <p className="text-sm text-gray-600 text-center">
-          Ramadan Toolkit · Created with care · Offline-friendly, no tracking
+          Ramadan Toolkit · Built with ❤️ · Fast and lightweight, no tracking
         </p>
       </div>
     </footer>
