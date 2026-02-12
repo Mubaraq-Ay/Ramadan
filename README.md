@@ -1,6 +1,6 @@
 # Ramadan Toolkit
 
-A minimalist, offline-friendly Ramadan companion built with Next.js 16, TypeScript, Tailwind CSS, and Framer Motion.
+A minimalist, distraction-free Ramadan companion for daily remembrance, duas, and spiritual consistency.
 
 ## Features
 
@@ -190,7 +190,7 @@ npm start
 - **Share Button**: WhatsApp reminder for tonight
 
 ### Home Page
-- **Hero**: Title, subtitle, offline badge
+- **Hero**: Title, subtitle, badge
 - **Quick Links**: 4 cards (Adhkār, Duʿā, Calendar, Laylatul Qadr)
 - **Today Panel**: Day X/30, featured duʿā, featured adhkār
 - **Share CTA**: Share toolkit on WhatsApp
