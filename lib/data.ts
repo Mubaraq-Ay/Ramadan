@@ -164,14 +164,14 @@ export const adhkarData: AdhkarItem[] = [
 ]
 
 export const duaaData: DuaaItem[] = [
-  {
-    id: 'f1',
-    category: 'fasting',
-    title: 'Fasting Intention',
-    arabic: 'اللهم إني نويت أن أصوم غدا',
-    transliteration: 'Allāhumma innī nawaytu an aṣūma ghada',
-    meaning: 'O Allah, I intend to fast tomorrow',
-  },
+  // {
+  //   id: 'f1',
+  //   category: 'fasting',
+  //   title: 'Fasting Intention',
+  //   arabic: 'اللهم إني نويت أن أصوم غدا',
+  //   transliteration: 'Allāhumma innī nawaytu an aṣūma ghada',
+  //   meaning: 'O Allah, I intend to fast tomorrow',
+  // },
   {
     id: 'f2',
     category: 'fasting',
