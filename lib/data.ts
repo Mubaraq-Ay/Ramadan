@@ -117,7 +117,7 @@ export const adhkarData: AdhkarItem[] = [
     id: 'a1',
     category: 'after-salah',
     title: 'Tasbeeh after Salah',
-    arabic: 'سبحان الله 33 مرة والحمد لله 33 مرة والله أكبر 34 مرة',
+    arabic: 'سبحان الله 33 مرة والحمد لله 33 مرة والله أكبر  33 مرة',
     transliteration: 'Subḥān Allāh (33x), Al-ḥamdu lilāh (33x), Allāh Akbar (33x)',
     meaning: 'Glory be to Allah 33 times, praise 33 times, Allah is Greatest 33 times',
   },
