@@ -272,7 +272,7 @@ export default function LaylatulQadrPage() {
 
       <div className="text-sm text-gray-600 text-center">
         <p>
-          🌙 Odd nights (21, 23, 25, 27, 29) are especially blessed · Make duʿā,
+           Odd nights (21, 23, 25, 27, 29) are especially blessed · Make duʿā,
           read Qur’an, pray
         </p>
       </div>
