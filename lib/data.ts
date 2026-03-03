@@ -223,14 +223,16 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Allāhumma ṭahirnī min adh-dhunūb wa al-khaṭāyā",
     meaning: "O Allah, purify me from sins and mistakes",
   },
-  {
-    id: "if1",
-    category: "iftar",
-    title: "Iftar Supplication",
-    arabic: "اللهم لك صمت وبك آمنت وعليك توكلت",
-    transliteration: "Allāhumma lak ṣumtu wa bika āmant wa ʿalayka tawakkalt",
-    meaning: "O Allah, I fasted for You and believed in You and trust in You",
-  },
+ {
+  id: "if1",
+  category: "iftar",
+  title: "Iftar Supplication",
+  arabic: "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+  transliteration:
+    "Dhahabaẓ-ẓama’u wabtallatil-‘urūq, wa thabatal-ajru in shā’ Allāh",
+  meaning:
+    "The thirst has gone, the veins are moistened, and the reward is confirmed, if Allah wills.",
+},
   {
     id: "if2",
     category: "iftar",
