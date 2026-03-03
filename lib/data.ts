@@ -300,14 +300,14 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Allāhumma innaka ʿafuww tuḥibb al-ʿafwa fa-ʿaf ʿannī",
     meaning: "O Allah, You are Pardoning and love pardon, so pardon me",
   },
-  {
-    id: "lq2",
-    category: "laylatul-qadr",
-    title: "Night of Power",
-    arabic: "اللهم إن هذه ليلة القدر",
-    transliteration: "Allāhumma inna hādhihi laylat al-qadr",
-    meaning: "O Allah, this is the Night of Power",
-  },
+ {
+  id: "lq2",
+  category: "laylatul-qadr",
+  title: "Night of Power",
+  arabic: "اللَّهُمَّ اجْعَلْنِي مِنْ عُتَقَائِكَ مِنَ النَّارِ",
+  transliteration: "Allāhumma-j‘alnī min ‘utaqā’ika minan-nār",
+  meaning: "O Allah, make me among those You free from the Fire.",
+},
 ];
 
 export const ramadanCalendarDays = Array.from({ length: 30 }, (_, i) => ({
