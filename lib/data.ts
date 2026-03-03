@@ -157,14 +157,21 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
     transliteration: "Aʿūdhu bilāh min ash-shaytān ar-rajīm",
     meaning: "I seek refuge with Allah from the accursed Satan",
   },
-  {
-    id: "a4",
-    category: "after-salah",
-    title: "Quranic Verses",
-    arabic: "قل هو الله أحد الله الصمد",
-    transliteration: "Qul huwa Allāh aḥad, allāh aṣ-ṣamad",
-    meaning: "Say: He is Allah, the One, Allah is Eternal",
-  },
+ {
+  id: "a4",
+  category: "after-salah",
+  title: "Quranic Verses",
+  arabic: `قُلْ هُوَ اللَّهُ أَحَدٌ
+اللَّهُ الصَّمَدُ
+لَمْ يَلِدْ وَلَمْ يُولَدْ
+وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ`,
+  transliteration: `Qul huwa Allāhu aḥad
+Allāhuṣ-ṣamad
+Lam yalid wa lam yūlad
+Wa lam yakun lahu kufuwan aḥad`,
+  meaning:
+    "Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born. And there is none comparable to Him.",
+},
   {
     id: "a5",
     category: "after-salah",
