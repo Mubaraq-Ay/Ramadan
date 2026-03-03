@@ -20,7 +20,7 @@ export const adhkarData: AdhkarItem[] = [
   {
     id: "m1",
     category: "morning",
-    title: "Tasbīḥ",
+    title: "",
     arabic: "سبحان الله",
     transliteration: "Subḥān Allāh",
     meaning: "Glory be to Allah",
@@ -28,7 +28,7 @@ export const adhkarData: AdhkarItem[] = [
   {
     id: "m2",
     category: "morning",
-    title: "Taḥmīd",
+    title: "",
     arabic: "الحمد لله",
     transliteration: "Al-ḥamdu lilāh",
     meaning: "All praise is due to Allah",
@@ -36,7 +36,7 @@ export const adhkarData: AdhkarItem[] = [
   {
     id: "m3",
     category: "morning",
-    title: "Takbīr",
+    title: "",
     arabic: "الله أكبر",
     transliteration: "Allāh Akbar",
     meaning: "Allah is the Greatest",
@@ -44,7 +44,7 @@ export const adhkarData: AdhkarItem[] = [
   {
     id: "m4",
     category: "morning",
-    title: "Lā ilāha illallāh",
+    title: "",
     arabic: "لا إله إلا الله",
     transliteration: "Lā ilāha illallāh",
     meaning: "There is no deity except Allah",
