@@ -112,15 +112,14 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
   transliteration: `Allāhumma mā amsā bī min ni‘matin aw bi-aḥadin min khalqik, fa minka waḥdaka lā sharīka lak, falakal-ḥamd wa lakash-shukr.`,
   meaning: `O Allah, whatever blessing I or any of Your creation has received this evening is from You alone, without partner. So for You is all praise and to You is all thanks.`,
 },
-  {
-    id: "e5",
-    category: "evening",
-    title: "Evening Peace",
-    arabic: "بسم الله الذي لا يضر مع اسمه شيء",
-    transliteration: "Bismillāh alladhī lā yaḍarru maʿa smihi shay'",
-    meaning:
-      "In the name of Allah, the Great, nothing in the earth or the sky can harm",
-  },
+{
+  id: 'e5',
+  category: 'evening',
+  title: 'Evening Peace',
+  arabic: `بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ، وَهُوَ السَّمِيعُ الْعَلِيمُ.`,
+  transliteration: `Bismillāhilladhī lā yaḍurru ma‘asmihī shay’un fil-arḍi wa lā fis-samā’, wa huwa as-Samī‘ul-‘Alīm.`,
+  meaning: `In the name of Allah, with whose name nothing on earth or in the heavens can cause harm, and He is the All-Hearing, the All-Knowing.`,
+},
   {
     id: "e6",
     category: "evening",
