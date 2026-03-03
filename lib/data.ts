@@ -39,7 +39,7 @@ export const adhkarData: AdhkarItem[] = [
     title: "",
     arabic: "الله أكبر",
     transliteration: "Allāh Akbar",
-    meaning: "Allah is the Greatest",
+    meaning: "Allah is Great",
   },
   {
     id: "m4",
@@ -47,7 +47,7 @@ export const adhkarData: AdhkarItem[] = [
     title: "",
     arabic: "لا إله إلا الله",
     transliteration: "Lā ilāha illallāh",
-    meaning: "There is no deity except Allah",
+    meaning: "There is no one worthy of worship in truth except Allah",
   },
 
   {
@@ -74,14 +74,14 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
 wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
     meaning: `O Allah, I ask You for the good of this day — its success, victory, light, blessings, and guidance — and I seek refuge in You from the evil within it and the evil that comes after it.`,
   },
-  {
-    id: "e1",
-    category: "evening",
-    title: "Evening Tasbīḥ",
-    arabic: "سبحان الله وبحمده",
-    transliteration: "Subḥān Allāh wa biḥamdihi",
-    meaning: "Glory be to Allah and with His praise",
-  },
+ {
+  id: "e1",
+  category: "evening",
+  title: "Tasbīḥ",
+  arabic: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
+  transliteration: "Subḥānallāhi wa biḥamdihī, subḥānallāhil-‘aẓīm",
+  meaning: "Glory be to Allah and praise be to Him; Glory be to Allah, the Most Great.",
+},
   {
     id: "e2",
     category: "evening",
