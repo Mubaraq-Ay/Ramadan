@@ -104,14 +104,14 @@ Rabbi a‘ūdhu bika minal-kasal wa sū’il-kibar, Rabbi a‘ūdhu bika min ‘
 My Lord, I ask You for the good of this night and the good that comes after it, and I seek refuge in You from the evil of this night and the evil that comes after it.
 My Lord, I seek refuge in You from laziness and the misery of old age, and I seek refuge in You from punishment in the Fire and punishment in the grave.`,
 },
-  {
-    id: "e4",
-    category: "evening",
-    title: "Gratitude",
-    arabic: "اللهم ما أمسى بي من نعمة فمنك",
-    transliteration: "Allāhumma mā amsā bī min niʿma fa-minka",
-    meaning: "O Allah, whatever blessing befalls me in the evening is from You",
-  },
+ {
+  id: 'e4',
+  category: 'evening',
+  title: 'Gratitude',
+  arabic: `اللَّهُمَّ مَا أَمْسَى بِي مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ، فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ.`,
+  transliteration: `Allāhumma mā amsā bī min ni‘matin aw bi-aḥadin min khalqik, fa minka waḥdaka lā sharīka lak, falakal-ḥamd wa lakash-shukr.`,
+  meaning: `O Allah, whatever blessing I or any of Your creation has received this evening is from You alone, without partner. So for You is all praise and to You is all thanks.`,
+},
   {
     id: "e5",
     category: "evening",
