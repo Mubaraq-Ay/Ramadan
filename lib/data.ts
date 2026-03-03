@@ -120,14 +120,14 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
   transliteration: `Bismillāhilladhī lā yaḍurru ma‘asmihī shay’un fil-arḍi wa lā fis-samā’, wa huwa as-Samī‘ul-‘Alīm.`,
   meaning: `In the name of Allah, with whose name nothing on earth or in the heavens can cause harm, and He is the All-Hearing, the All-Knowing.`,
 },
-  {
-    id: "e6",
-    category: "evening",
-    title: "Seeking Forgiveness",
-    arabic: "أستغفر الله الذي لا إله إلا هو",
-    transliteration: "Astaghfir allāh alladhī lā ilāha illā huwa",
-    meaning: "I seek forgiveness from Allah, the only deity",
-  },
+{
+  id: 'e6',
+  category: 'evening',
+  title: 'Seeking Forgiveness',
+  arabic: `أَسْتَغْفِرُ اللَّهَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ.`,
+  transliteration: `Astaghfirullāhalladhī lā ilāha illā huwa, al-Ḥayyul-Qayyūm, wa atūbu ilayh.`,
+  meaning: `I seek forgiveness from Allah, besides whom there is no deity, the Ever-Living, the Sustainer, and I repent to Him.`,
+},
   {
     id: "a1",
     category: "after-salah",
