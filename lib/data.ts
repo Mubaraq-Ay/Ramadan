@@ -138,16 +138,17 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
     meaning:
       "Glory be to Allah 33 times, praise 33 times, Allah is Greatest 33 times",
   },
-  {
-    id: "a2",
-    category: "after-salah",
-    title: "Lā ilāha illallāh",
-    arabic:
-      "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير",
-    transliteration: "Lā ilāha illallāh waḥdahu lā sharīka lahu...",
-    meaning:
-      "There is no deity except Allah, alone, no partner, His is the dominion",
-  },
+ {
+  id: "a2",
+  category: "after-salah",
+  title: "Lā ilāha illallāh",
+  arabic:
+    "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير",
+  transliteration:
+    "Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ‘alā kulli shay’in qadīr",
+  meaning:
+    "There is no deity except Allah alone, with no partner. To Him belongs the dominion and all praise, and He is capable of all things.",
+},
   {
     id: "a3",
     category: "after-salah",
