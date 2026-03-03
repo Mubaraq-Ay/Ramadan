@@ -241,15 +241,14 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Al-ḥamdu lilāh alladhī aʿānannī ʿalā ṣiyāmī",
     meaning: "Praise be to Allah Who helped me with my fasting",
   },
-  {
-    id: "if3",
-    category: "iftar",
-    title: "Restoration Supplication",
-    arabic: "اللهم أطعمني بعد جوعي وأسقني بعد ظمئي",
-    transliteration: "Allāhumma aṭʿimnī baʿda jūʿī wa asqinī baʿda ẓamī'",
-    meaning:
-      "O Allah, feed me after my hunger and give me drink after my thirst",
-  },
+ {
+  id: "f3",
+  category: "fasting",
+  title: "Seeking Help in Worship",
+  arabic: "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+  transliteration: "Allāhumma a‘innī ‘alā dhikrika wa shukrika wa ḥusni ‘ibādatik",
+  meaning: "O Allah, help me to remember You, to thank You, and to worship You in the best manner.",
+},
   {
     id: "g1",
     category: "forgiveness",
