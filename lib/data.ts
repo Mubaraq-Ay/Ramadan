@@ -272,15 +272,16 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Allāhumma anta aʿẓam min an tuʿṣā faghfir lī",
     meaning: "O Allah, You are too Great to be disobeyed, forgive me",
   },
-  {
-    id: "p1",
-    category: "parents",
-    title: "Parents Duaa",
-    arabic: "اللهم اغفر لي ولوالديّ وارحمهما كما ربياني صغيرا",
-    transliteration: "Allāhumma aghfir lī wa li-wālidayya wa arḥamhuma...",
-    meaning:
-      "O Allah, forgive me and my parents and have mercy on them as they raised me",
-  },
+ {
+  id: "p1",
+  category: "parents",
+  title: "Parents Duaa",
+  arabic: "اللهم اغفر لي ولوالديّ وارحمهما كما ربياني صغيرا",
+  transliteration:
+    "Allāhumma-ghfir lī wa li-wālidayya warḥamhumā kamā rabbayānī ṣaghīrā",
+  meaning:
+    "O Allah, forgive me and my parents, and have mercy on them as they raised me when I was small.",
+},
   {
     id: "p2",
     category: "parents",
