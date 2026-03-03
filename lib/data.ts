@@ -129,15 +129,18 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
   meaning: `I seek forgiveness from Allah, besides whom there is no deity, the Ever-Living, the Sustainer, and I repent to Him.`,
 },
   {
-    id: "a1",
-    category: "after-salah",
-    title: "Tasbeeh after Salah",
-    arabic: "سبحان الله 33 مرة والحمد لله 33 مرة والله أكبر  33 مرة",
-    transliteration:
-      "Subḥān Allāh (33x), Al-ḥamdu lilāh (33x), Allāh Akbar (33x)",
-    meaning:
-      "Glory be to Allah 33 times, praise 33 times, Allah is Greatest 33 times",
-  },
+  id: "a1",
+  category: "after-salah",
+  title: "Tasbīḥ After Ṣalāh",
+  arabic: `سُبْحَانَ اللَّهِ (٣٣)
+الْحَمْدُ لِلَّهِ (٣٣)
+اللَّهُ أَكْبَرُ (٣٣)`,
+  transliteration: `Subḥānallāh (33x)
+Al-ḥamdu lillāh (33x)
+Allāhu akbar (33x)`,
+  meaning:
+    "Glory be to Allah, praise be to Allah, Allah is Great",
+},
  {
   id: "a2",
   category: "after-salah",
@@ -149,80 +152,77 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
   meaning:
     "There is no deity except Allah alone, with no partner. To Him belongs the dominion and all praise, and He is capable of all things.",
 },
-  {
-    id: "a3",
-    category: "after-salah",
-    title: "Aʿūdhu bilāh",
-    arabic: "أعوذ بالله من الشيطان الرجيم",
-    transliteration: "Aʿūdhu bilāh min ash-shaytān ar-rajīm",
-    meaning: "I seek refuge with Allah from the accursed Satan",
-  },
- {
+{
+  id: "a3",
+  category: "after-salah",
+  title: "Seeking Forgiveness After Ṣalāh",
+  arabic: "أَسْتَغْفِرُ اللَّهَ (٣ مرات)",
+  transliteration: "Astaghfirullāh (3 times)",
+  meaning: "I seek forgiveness from Allah (three times).",
+},
+{
   id: "a4",
   category: "after-salah",
-  title: "Quranic Verses",
-  arabic: `قُلْ هُوَ اللَّهُ أَحَدٌ
-اللَّهُ الصَّمَدُ
-لَمْ يَلِدْ وَلَمْ يُولَدْ
-وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ`,
-  transliteration: `Qul huwa Allāhu aḥad
-Allāhuṣ-ṣamad
-Lam yalid wa lam yūlad
-Wa lam yakun lahu kufuwan aḥad`,
-  meaning:
-    "Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born. And there is none comparable to Him.",
+  title: "Āyat al-Kursī",
+  arabic: `اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَؤُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ`,
+  transliteration: `Allāhu lā ilāha illā huwa al-ḥayyul-qayyūm. Lā ta’khudhuhu sinatun wa lā nawm. Lahu mā fis-samāwāti wa mā fil-arḍ. Man dhalladhī yashfa‘u ‘indahu illā bi-idhnih. Ya‘lamu mā bayna aydīhim wa mā khalfahum. Wa lā yuḥīṭūna bishay’in min ‘ilmihi illā bimā shā’. Wasi‘a kursiyyuhus-samāwāti wal-arḍ. Wa lā ya’ūduhu ḥifẓuhumā. Wa huwa al-‘aliyyul-‘aẓīm.`,
+  meaning: `There is no deity except Allah, the Ever-Living, the Sustainer of all existence. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what is behind them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation does not tire Him. And He is the Most High, the Most Great.`,
 },
-  {
-    id: "a5",
-    category: "after-salah",
-    title: "Seeking Pardon",
-    arabic: "اللهم أنت السلام ومنك السلام",
-    transliteration: "Allāhumma anta as-salām wa minka as-salām",
-    meaning: "O Allah, You are Peace and from You is Peace",
-  },
-  {
-    id: "a6",
-    category: "after-salah",
-    title: "Mercy Supplication",
-    arabic: "اللهم اغفر لي ذنبي كله",
-    transliteration: "Allāhumma aghfir lī dhanbī kulla",
-    meaning: "O Allah, forgive all of my sins",
-  },
+{
+  id: "a5",
+  category: "after-salah",
+  title: "Allahumma Anta as-Salām",
+  arabic:
+    "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+  transliteration:
+    "Allāhumma anta as-salām wa minka as-salām tabārakta yā dhal-jalāli wal-ikrām",
+  meaning:
+    "O Allah, You are Peace and from You comes peace. Blessed are You, O Possessor of Majesty and Honor.",
+},
+ {
+  id: "a6",
+  category: "after-salah",
+  title: "Three Quls",
+  arabic: `
+  `,
+  transliteration: `Qul huwa Allāhu aḥad...
+Qul a‘ūdhu birabbil-falaq...
+Qul a‘ūdhu birabbin-nās...`,
+  meaning:
+    "Recite Surah Ikhlas, Surah Falaq, and Surah Nas.",
+}
 ];
 
 export const duaaData: DuaaItem[] = [
-  // {
-  //   id: 'f1',
-  //   category: 'fasting',
-  //   title: 'Fasting Intention',
-  //   arabic: 'اللهم إني نويت أن أصوم غدا',
-  //   transliteration: 'Allāhumma innī nawaytu an aṣūma ghada',
-  //   meaning: 'O Allah, I intend to fast tomorrow',
-  // },
-  {
-    id: "f2",
-    category: "fasting",
-    title: "Breaking Fast with Dates",
-    arabic: "بسم الله والحمد لله",
-    transliteration: "Bismillāh wa al-ḥamdu lilāh",
-    meaning: "In the name of Allah and all praise to Allah",
-  },
-  {
-    id: "f3",
-    category: "fasting",
-    title: "Strength for Fasting",
-    arabic: "اللهم أعني على صيامك وتلاوة كتابك",
-    transliteration: "Allāhumma aʿinnī ʿalā ṣiyāmika wa tilāwat kitābika",
-    meaning: "O Allah, help me with Your fasting and reciting Your Book",
-  },
-  {
-    id: "f4",
-    category: "fasting",
-    title: "Purification",
-    arabic: "اللهم طهرني من الذنوب والخطايا",
-    transliteration: "Allāhumma ṭahirnī min adh-dhunūb wa al-khaṭāyā",
-    meaning: "O Allah, purify me from sins and mistakes",
-  },
+//  {
+//   id: "f1",
+//   category: "fasting",
+//   title: "Iftar Supplication",
+//   arabic: "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+//   transliteration:
+//     "Dhahabaẓ-ẓama’u wabtallatil-‘urūq, wa thabatal-ajru in shā’ Allāh",
+//   meaning:
+//     "The thirst has gone, the veins are moistened, and the reward is confirmed, if Allah wills.",
+// },
+ {
+  id: "f2",
+  category: "fasting",
+  title: "Seeking Forgiveness Before Iftar",
+  arabic: "اللَّهُمَّ اغْفِرْ لِي",
+  transliteration: "Allāhumma-ghfir lī",
+  meaning: "O Allah, forgive me.",
+},
+{
+  id: "f3",
+  category: "fasting",
+  title: "Seeking Taqwa",
+  arabic: "اللَّهُمَّ آتِ نَفْسِي تَقْوَاهَا وَزَكِّهَا أَنْتَ خَيْرُ مَنْ زَكَّاهَا أَنْتَ وَلِيُّهَا وَمَوْلَاهَا",
+  transliteration:
+    "Allāhumma ātī nafsī taqwāhā wa zakkihā anta khayru man zakkāhā anta waliyyuhā wa mawlāhā",
+  meaning:
+    "O Allah, grant my soul its righteousness and purify it. You are the best to purify it. You are its Protector and Guardian.",
+},
+ 
  {
   id: "if1",
   category: "iftar",
@@ -233,21 +233,21 @@ export const duaaData: DuaaItem[] = [
   meaning:
     "The thirst has gone, the veins are moistened, and the reward is confirmed, if Allah wills.",
 },
-  {
-    id: "if2",
-    category: "iftar",
-    title: "Gratitude for Breaking Fast",
-    arabic: "الحمد لله الذي أعانني على صيامي",
-    transliteration: "Al-ḥamdu lilāh alladhī aʿānannī ʿalā ṣiyāmī",
-    meaning: "Praise be to Allah Who helped me with my fasting",
-  },
  {
-  id: "f3",
-  category: "fasting",
-  title: "Seeking Help in Worship",
-  arabic: "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
-  transliteration: "Allāhumma a‘innī ‘alā dhikrika wa shukrika wa ḥusni ‘ibādatik",
-  meaning: "O Allah, help me to remember You, to thank You, and to worship You in the best manner.",
+  id: "if2",
+  category: "iftar",
+  title: "Praise After Blessing",
+  arabic: "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِينَ",
+  transliteration: "Al-ḥamdu lillāhi alladhī aṭ‘amanā wa saqānā wa ja‘alanā minal-muslimīn",
+  meaning: "Praise be to Allah who fed us, gave us drink, and made us among the Muslims.",
+},
+ {
+  id: "if3",
+  category: "iftar",
+  title: "Seeking Acceptance",
+  arabic: "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+  transliteration: "Rabbana taqabbal minnā innaka antas-Samī‘ul-‘Alīm",
+  meaning: "Our Lord, accept from us. Indeed, You are the All-Hearing, the All-Knowing.",
 },
   {
     id: "g1",
@@ -257,22 +257,22 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Astaghfir allāh wa atūbu ilayh",
     meaning: "I seek forgiveness from Allah and turn to Him in repentance",
   },
+ {
+  id: "g2",
+  category: "forgiveness",
+  title: "Master Supplication for Forgiveness",
+  arabic: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+  transliteration: "Allāhumma anta rabbī lā ilāha illā anta, khalaqtanī wa anā ‘abduk, wa anā ‘alā ‘ahdika wa wa‘dika mastata‘t, a‘ūdhu bika min sharri mā ṣana‘t, abū’u laka bini‘matika ‘alayya, wa abū’u bidhanbī faghfir lī, fa innahu lā yaghfirudh-dhunūba illā anta",
+  meaning: "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant, and I abide by Your covenant and promise as best as I can. I seek refuge in You from the evil of what I have done. I acknowledge Your favor upon me and I confess my sin, so forgive me, for none forgives sins except You.",
+},
   {
-    id: "g2",
-    category: "forgiveness",
-    title: "Divine Mercy",
-    arabic: "اللهم إن سعة رحمتك وسعت كل شيء",
-    transliteration: "Allāhumma inna saʿat raḥmatuka wasat kulla shay'",
-    meaning: "O Allah, Your mercy encompasses all things",
-  },
-  {
-    id: "g3",
-    category: "forgiveness",
-    title: "Forgiveness Prayer",
-    arabic: "اللهم أنت أعظم من أن تُعصى فاغفر لي",
-    transliteration: "Allāhumma anta aʿẓam min an tuʿṣā faghfir lī",
-    meaning: "O Allah, You are too Great to be disobeyed, forgive me",
-  },
+  id: "g3",
+  category: "forgiveness",
+  title: "Seeking Complete Forgiveness",
+  arabic: "رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
+  transliteration: "Rabbighfir lī wa tub ‘alayya innaka antat-Tawwābur-Raḥīm",
+  meaning: "My Lord, forgive me and accept my repentance. Indeed, You are the Accepter of repentance, the Most Merciful.",
+},
  {
   id: "p1",
   category: "parents",
@@ -299,14 +299,14 @@ export const duaaData: DuaaItem[] = [
     transliteration: "Allāhumma innaka ʿafuww tuḥibb al-ʿafwa fa-ʿaf ʿannī",
     meaning: "O Allah, You are Pardoning and love pardon, so pardon me",
   },
- {
+{
   id: "lq2",
   category: "laylatul-qadr",
-  title: "Night of Power",
-  arabic: "اللَّهُمَّ اجْعَلْنِي مِنْ عُتَقَائِكَ مِنَ النَّارِ",
-  transliteration: "Allāhumma-j‘alnī min ‘utaqā’ika minan-nār",
-  meaning: "O Allah, make me among those You free from the Fire.",
-},
+  title: "Seeking Paradise",
+  arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+  transliteration: "Allāhumma innī as’alukal-jannah wa a‘ūdhu bika minan-nār",
+  meaning: "O Allah, I ask You for Paradise and seek refuge in You from the Fire.",
+}
 ];
 
 export const ramadanCalendarDays = Array.from({ length: 30 }, (_, i) => ({
