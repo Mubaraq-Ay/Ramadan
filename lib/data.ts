@@ -64,14 +64,16 @@ Rabbi a‘ūdhu bika minal-kasal wa sū’il-kibar, Rabbi a‘ūdhu bika min ‘
 My Lord, I ask You for the good of this day and the good that comes after it, and I seek refuge in You from the evil of this day and the evil that comes after it.
 My Lord, I seek refuge in You from laziness and the misery of old age, and I seek refuge in You from punishment in the Fire and punishment in the grave.`,
   },
-  {
-    id: "m6",
-    category: "morning",
-    title: "Seeking Protection",
-    arabic: "اللهم إني أسألك خيرا",
-    transliteration: "Allāhumma innī as'aluka khayra",
-    meaning: "O Allah, I ask You for good",
-  },
+ {
+  id: 'm6',
+  category: 'morning',
+  title: 'Seeking Protection',
+  arabic: `اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ: فَتْحَهُ، وَنَصْرَهُ، وَنُورَهُ، وَبَرَكَتَهُ، وَهُدَاهُ،
+وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِيهِ وَشَرِّ مَا بَعْدَهُ.`,
+  transliteration: `Allāhumma innī as’aluka khayra hādhā al-yawm: fatḥahu, wa naṣrahu, wa nūrahū, wa barakatahū, wa hudāhū,
+wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
+  meaning: `O Allah, I ask You for the good of this day — its success, victory, light, blessings, and guidance — and I seek refuge in You from the evil within it and the evil that comes after it.`,
+},
   {
     id: "e1",
     category: "evening",
