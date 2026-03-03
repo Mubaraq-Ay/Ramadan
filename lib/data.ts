@@ -88,7 +88,7 @@ wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
     title: "Evening Takbīr",
     arabic: "الله أكبر كبيرا",
     transliteration: "Allāh akbar kabīra",
-    meaning: "Allah is the Greatest, so great",
+    meaning: "Allah is Great, truly great",
   },
  {
   id: 'e3',
