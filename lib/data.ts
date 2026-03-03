@@ -64,16 +64,16 @@ Rabbi a‘ūdhu bika minal-kasal wa sū’il-kibar, Rabbi a‘ūdhu bika min ‘
 My Lord, I ask You for the good of this day and the good that comes after it, and I seek refuge in You from the evil of this day and the evil that comes after it.
 My Lord, I seek refuge in You from laziness and the misery of old age, and I seek refuge in You from punishment in the Fire and punishment in the grave.`,
   },
- {
-  id: 'm6',
-  category: 'morning',
-  title: 'Seeking Protection',
-  arabic: `اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ: فَتْحَهُ، وَنَصْرَهُ، وَنُورَهُ، وَبَرَكَتَهُ، وَهُدَاهُ،
+  {
+    id: "m6",
+    category: "morning",
+    title: "Seeking Protection",
+    arabic: `اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ: فَتْحَهُ، وَنَصْرَهُ، وَنُورَهُ، وَبَرَكَتَهُ، وَهُدَاهُ،
 وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِيهِ وَشَرِّ مَا بَعْدَهُ.`,
-  transliteration: `Allāhumma innī as’aluka khayra hādhā al-yawm: fatḥahu, wa naṣrahu, wa nūrahū, wa barakatahū, wa hudāhū,
+    transliteration: `Allāhumma innī as’aluka khayra hādhā al-yawm: fatḥahu, wa naṣrahu, wa nūrahū, wa barakatahū, wa hudāhū,
 wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
-  meaning: `O Allah, I ask You for the good of this day — its success, victory, light, blessings, and guidance — and I seek refuge in You from the evil within it and the evil that comes after it.`,
-},
+    meaning: `O Allah, I ask You for the good of this day — its success, victory, light, blessings, and guidance — and I seek refuge in You from the evil within it and the evil that comes after it.`,
+  },
   {
     id: "e1",
     category: "evening",
@@ -90,14 +90,20 @@ wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
     transliteration: "Allāh akbar kabīra",
     meaning: "Allah is the Greatest, so great",
   },
-  {
-    id: "e3",
-    category: "evening",
-    title: "Protection Supplication",
-    arabic: "أمسينا وأمسى الملك لله",
-    transliteration: "Amsaynā wa amsā al-mulk lilāh",
-    meaning: "We have entered the evening and the dominion belongs to Allah",
-  },
+ {
+  id: 'e3',
+  category: 'evening',
+  title: 'Protection Supplication',
+  arabic: `أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.
+رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِيهَا وَشَرِّ مَا بَعْدَهَا.
+رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ.`,
+  transliteration: `Amsaynā wa amsal-mulku lillāh, wal-ḥamdu lillāh. Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ‘alā kulli shay’in qadīr.
+Rabbi as’aluka khayra mā fī hādhihil-laylah wa khayra mā ba‘dahā, wa a‘ūdhu bika min sharri mā fīhā wa sharri mā ba‘dahā.
+Rabbi a‘ūdhu bika minal-kasal wa sū’il-kibar, Rabbi a‘ūdhu bika min ‘adhābin fin-nār wa ‘adhābin fil-qabr.`,
+  meaning: `We have entered the evening and the dominion belongs to Allah, and all praise is for Allah. None has the right to be worshipped except Allah alone, without partner. His is the dominion and His is the praise, and He is capable of all things.
+My Lord, I ask You for the good of this night and the good that comes after it, and I seek refuge in You from the evil of this night and the evil that comes after it.
+My Lord, I seek refuge in You from laziness and the misery of old age, and I seek refuge in You from punishment in the Fire and punishment in the grave.`,
+},
   {
     id: "e4",
     category: "evening",
