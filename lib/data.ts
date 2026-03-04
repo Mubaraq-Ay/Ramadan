@@ -18,37 +18,31 @@ export interface DuaaItem {
 
 export const adhkarData: AdhkarItem[] = [
   {
-    id: "m1",
-    category: "morning",
-    title: "",
-    arabic: "سبحان الله",
-    transliteration: "Subḥān Allāh",
-    meaning: "Glory be to Allah",
-  },
-  {
-    id: "m2",
-    category: "morning",
-    title: "",
-    arabic: "الحمد لله",
-    transliteration: "Al-ḥamdu lilāh",
-    meaning: "All praise is due to Allah",
-  },
-  {
-    id: "m3",
-    category: "morning",
-    title: "",
-    arabic: "الله أكبر",
-    transliteration: "Allāh Akbar",
-    meaning: "Allah is Great",
-  },
-  {
-    id: "m4",
-    category: "morning",
-    title: "",
-    arabic: "لا إله إلا الله",
-    transliteration: "Lā ilāha illallāh",
-    meaning: "There is no one worthy of worship in truth except Allah",
-  },
+  id: "m1",
+  category: "morning",
+  title: "Upon Waking",
+  arabic: "الحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+  transliteration: "Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur",
+  meaning: "Praise is to Allah who gave us life after causing us to die, and to Him is the resurrection."
+},
+
+{
+  id: "m2",
+  category: "morning",
+  title: "Dhikr Upon Waking",
+  arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ، رَبِّ اغْفِرْ لِي",
+  transliteration: "La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, wa huwa 'ala kulli shay'in qadir. Subhanallah, walhamdu lillah, wa la ilaha illallah, wallahu akbar. Wa la hawla wa la quwwata illa billahil-'aliyyil-'azim. Rabbighfir li.",
+  meaning: "None has the right to be worshipped except Allah alone with no partner. His is the dominion and His is the praise, and He has power over all things. Glory is to Allah. Praise is to Allah. None has the right to be worshipped except Allah. Allah is the Greatest. There is no power and no strength except with Allah, the Most High, the Most Great. My Lord, forgive me."
+},
+
+{
+  id: "m3",
+  category: "morning",
+  title: "Gratitude for Health and Life",
+  arabic: "الحَمْدُ لِلَّهِ الَّذِي عَافَانِي فِي جَسَدِي، وَرَدَّ عَلَيَّ رُوحِي، وَأَذِنَ لِي بِذِكْرِهِ",
+  transliteration: "Alhamdu lillahil-ladhi 'afani fi jasadi, wa radda 'alayya ruhi, wa adhina li bidhikrih",
+  meaning: "Praise is to Allah who gave strength to my body, returned my soul to me, and allowed me to remember Him."
+},
 
   {
     id: "m5",
@@ -74,6 +68,45 @@ My Lord, I seek refuge in You from laziness and the misery of old age, and I see
 wa a‘ūdhu bika min sharri mā fīhi wa sharri mā ba‘dah.`,
     meaning: `O Allah, I ask You for the good of this day — its success, victory, light, blessings, and guidance — and I seek refuge in You from the evil within it and the evil that comes after it.`,
   },
+
+  {
+  id: "m4",
+  category: "morning",
+  title: "Last Ten Verses of Surah Aal-Imran (3:190–200)",
+  arabic: `
+إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ ﴿190﴾
+الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ ۚ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَاطِلًا ۚ سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ ﴿191﴾
+رَبَّنَا إِنَّكَ مَن تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ ۖ وَمَا لِلظَّالِمِينَ مِنْ أَنصَارٍ ﴿192﴾
+رَبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا ۚ رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ ﴿193﴾
+رَبَّنَا وَآتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ ۗ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ ﴿194﴾
+فَاسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّن بَعْضٍ ۖ فَالَّذِينَ هَاجَرُوا وَأُخْرِجُوا مِن دِيَارِهِمْ وَأُوذُوا فِي سَبِيلِي وَقَاتَلُوا وَقُتِلُوا لَأُكَفِّرَنَّ عَنْهُمْ سَيِّئَاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ثَوَابًا مِّنْ عِندِ اللَّهِ ۗ وَاللَّهُ عِندَهُ حُسْنُ الثَّوَابِ ﴿195﴾
+لَا يَغُرَّنَّكَ تَقَلُّبُ الَّذِينَ كَفَرُوا فِي الْبِلَادِ ﴿196﴾
+مَتَاعٌ قَلِيلٌ ثُمَّ مَأْوَاهُمْ جَهَنَّمُ ۚ وَبِئْسَ الْمِهَادُ ﴿197﴾
+لَٰكِنِ الَّذِينَ اتَّقَوْا رَبَّهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا نُزُلًا مِّنْ عِندِ اللَّهِ ۗ وَمَا عِندَ اللَّهِ خَيْرٌ لِّلْأَبْرَارِ ﴿198﴾
+وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَن يُؤْمِنُ بِاللَّهِ وَمَا أُنزِلَ إِلَيْكُمْ وَمَا أُنزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا ۗ أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ ۗ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ ﴿199﴾
+يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ ﴿200﴾
+`,
+  transliteration: `
+Inna fi khalqi as-samawati wal-ardi wakhtilafi al-layli wan-nahari la-ayatin li-ulil-albab.
+Alladhina yadhkuruna Allaha qiyaman wa qu'udan wa 'ala junubihim wa yatafakkaruna fi khalqi as-samawati wal-ard. Rabbana ma khalaqta hadha batilan, subhanaka faqina 'adhaba an-nar.
+Rabbana innaka man tudkhili an-nara faqad akhzaytah, wa ma li-adh-dhalimina min ansar.
+Rabbana innana sami'na munadiyan yunadi lil-imani an aminu birabbikum fa amanna. Rabbana faghfir lana dhunubana wa kaffir 'anna sayyiatina wa tawaffana ma'a al-abrar.
+Rabbana wa atina ma wa'adtana 'ala rusulika wa la tukhzina yawma al-qiyamah. Innaka la tukhlifu al-mi'ad.
+Fastajaba lahum rabbuhum anni la udi'u 'amala 'amilin minkum min dhakarin aw untha. Ba'dukum min ba'd. Falladhina hajaru wa ukhriju min diyarihim wa udhu fi sabil i wa qatalu wa qutilu la-ukaffiranna 'anhum sayyiatihim wa la-udkhilannahum jannatin tajri min tahtiha al-anhar thawaban min 'indi Allah. Wallahu 'indahu husnu ath-thawab.
+La yaghurrannaka taqallubu alladhina kafaru fi al-bilad.
+Mata'un qalil thumma ma'wahum jahannam wa bi'sa al-mihad.
+Lakini alladhina ittaqaw rabbahum lahum jannatun tajri min tahtiha al-anhar khalidina fiha nuzulan min 'indi Allah. Wa ma 'inda Allah khayrun lil-abrar.
+Wa inna min ahli al-kitabi laman yu'minu billahi wa ma unzila ilaykum wa ma unzila ilayhim khashi'ina lillah la yashtaruna bi-ayati Allahi thamanan qalilan. Ula'ika lahum ajruhum 'inda rabbihim. Inna Allaha sari'u al-hisab.
+Ya ayyuhal-ladhina amanu isbiru wa sabiru wa rabitu wa ittaqu Allaha la'allakum tuflihun.
+`,
+  meaning: `
+Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for people of understanding — those who remember Allah standing, sitting, and lying on their sides, and reflect on the creation of the heavens and the earth, saying: "Our Lord, You did not create this in vain. Glory be to You, so protect us from the punishment of the Fire. Our Lord, whoever You admit into the Fire, You have disgraced him, and the wrongdoers will have no helpers. Our Lord, we heard a caller calling to faith: 'Believe in your Lord,' so we believed. Our Lord, forgive us our sins, remove from us our misdeeds, and cause us to die with the righteous. Our Lord, grant us what You promised through Your messengers and do not disgrace us on the Day of Resurrection. Indeed, You do not break Your promise."
+So their Lord responded to them: "Never will I allow the work of any worker among you to be lost, whether male or female — you are of one another. So those who emigrated, were expelled from their homes, were harmed in My cause, fought and were killed — I will surely remove from them their misdeeds and admit them into gardens beneath which rivers flow, as a reward from Allah. And with Allah is the best reward."
+Let not the movement of the disbelievers throughout the land deceive you. It is only brief enjoyment; then their refuge is Hell, and wretched is the resting place. But those who fear their Lord will have gardens beneath which rivers flow, abiding therein forever, as hospitality from Allah. And what is with Allah is better for the righteous.
+And indeed, among the People of the Scripture are those who believe in Allah and what has been revealed to you and what was revealed to them, humbling themselves before Allah. They do not exchange the verses of Allah for a small price. Those will have their reward with their Lord. Indeed, Allah is swift in account.
+O you who believe, be patient, endure, remain stationed, and fear Allah that you may succeed.
+`
+},
 {
   id: "e1",
   category: "evening",
