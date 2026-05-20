@@ -8,8 +8,7 @@ export default function Footer() {
         <p className="text-sm text-gray-600 text-center">
           Ramadan Toolkit · Built by{" "}
           <a
-            href="https://wa.me/2348105293004
-"
+            href="https://ayanleke.vercel.app"
             target="_blank"
           >
             Mubaraq
